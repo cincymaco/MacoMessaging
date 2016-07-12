@@ -16,7 +16,7 @@ import java.util.List;
 public class MessageService {
 
     public static final String ACCOUNT_SID = "ACc4bde2171311053fc5728ed15c4921d4";
-    public static final String AUTH_TOKEN = "9058f16b0bbca1361f37a06aaef37923";
+    public static final String AUTH_TOKEN = "";
 
     public static String sendMessage(String phoneNumber, String messageBody) throws TwilioRestException {
         TwilioRestClient client = new TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN);
